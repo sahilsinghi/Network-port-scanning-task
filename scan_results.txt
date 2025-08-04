@@ -1,0 +1,13 @@
+# Nmap 7.97 scan initiated Mon Aug  4 21:39:13 2025 as: nmap -sS -oN scan_results.txt 192.168.56.1
+Nmap scan report for 192.168.56.1
+Host is up (0.00082s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2179/tcp open  vmrdp
+7070/tcp open  realserver
+9999/tcp open  abyss
+
+# Nmap done at Mon Aug  4 21:39:14 2025 -- 1 IP address (1 host up) scanned in 1.08 seconds
